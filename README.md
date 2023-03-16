@@ -1,34 +1,18 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blogger
 
-## Getting Started
+## What is blogger?
+Blogger is a Web Application with a modern and intuitive UI. In the home page of blogger the user can view some posted blogs, if he/she is interested in one blog then the user can navigate to the blog detail page where there will be a lot more of information. Also in the home page there are some other sections like recent posts and a section to filter the blogs by categories.
+In the blog detail page you can also see and know who the author of that blog is and a little biography about him. Also, there is a section to add comments to the blogs, these comments will be reviewed before actually showing them in the comments section. Lastly, there is another section with related blogs to visit.
 
-First, run the development server:
+## Most important technologies I used for this project:
+- Next.js
+- TailwindCSS
+- GraphQL
+- Hygraph
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Preview
+![preview](./public/preview.png)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployed Version
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://blog-brown-eight.vercel.app/
